@@ -104,12 +104,21 @@ if (userName === "Adewale") {
 
 age = 78;
 if (age >= 18) {
-    console.log("You are an adult.");
+    console.log("You are an adult and eligible to vote.");
 } else if (age >= 65) {
-    console.log("You are a senior citizen.");
+    console.log("You are a senior citizen and too old to vote.");
 } else {                                    
-    console.log("You are a minor.");
+    console.log("You are a minor and not eligible to vote.");
 }   
+
+
+age = 23;
+if (age >= 18) {
+    console.log("You are eligible to vote.");
+} else {
+    console.log("You are too young to vote.");
+}
+
 
 // Initialize the three sides of the triangle
 let side1 = 5;
@@ -123,4 +132,36 @@ if (side1 === side2 && side2 === side3) {
     console.log("Isosceles triangle");
 } else {
     console.log("Scalene triangle");
+}
+
+const day = 'Thursday';
+//if (day === 'Friday')   {
+    //console.log("TGIF!!! It's Friday, time to relax!");
+//}
+//else if (day === 'Saturday') {
+  //  console.log("It's Saturday! Enjoy your weekend!");
+//}
+//else if (day === 'Sunday') {
+    //console.log("It's Sunday! Time to recharge for the week ahead!");
+//}
+//else if (day === 'Monday') {
+    //console.log("Ugh, it's Monday. Back to work!");
+//}
+
+switch (day) {
+    case 'Friday':
+        console.log("TGIF!!! It's Friday, time to relax!");
+        break;
+    case 'Saturday':
+        console.log("It's Saturday! Enjoy your weekend!");
+        break;
+    case 'Sunday':
+        console.log("It's Sunday! Time to recharge for the week ahead!");
+        break;
+    case 'Monday':
+        console.log("Ugh, it's Monday. Back to work!");
+        break;
+        case;
+    default:
+        console.log("Invalid day of the week.");
 }
