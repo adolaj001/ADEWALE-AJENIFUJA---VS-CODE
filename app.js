@@ -56,13 +56,13 @@ console.log(sentence);
 // 1. Get the current day of the week as a string
 let daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 let today = new Date();
-let day = daysOfWeek[today.getDay()];   // e.g., "Thursday"
+let currentDay = daysOfWeek[today.getDay()];   // e.g., "Thursday"
 
 // 2. Get the numeric position of the day (Sunday = 1, Monday = 2, ...)
 let position = today.getDay() + 1;      // e.g., Thursday → 4
 
 // 3. Create the output string using concatenation
-let output = "Today is " + day + ". It is the " + position + "th day of the week.";
+let output = "Today is " + currentDay + ". It is the " + position + "th day of the week.";
 
 console.log(output);
 
@@ -161,7 +161,9 @@ switch (day) {
     case 'Monday':
         console.log("Ugh, it's Monday. Back to work!");
         break;
-        case;
+        case 'Tuesday':
+        console.log("It's Tuesday! Keep going, the week is still young!");
+        break;
     default:
         console.log("Invalid day of the week.");
 }
