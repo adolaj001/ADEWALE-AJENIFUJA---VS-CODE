@@ -343,12 +343,25 @@ console.log(months) // Output: ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug',
 
 const myObject = {name:'car', price:25000000, color:'red', year:2020, isElectric:false}
 
-const door = {isOpen:false, material:'steel', color:'white', height:'8feet', width:'4feet'}
+const door = {isOpen:false,
+     material:'steel',
+      color:'white',
+       height:'8feet', 
+       width:'4feet' ,
+        toggleOpenandClose:function() {
+            if (door.isOpen === true) {
+                door.isOpen = false
+                else {
+                    door.isOpen = true
+                }
+        }
 
 console.log(door.isOpen) // Output: false
 console.log(door.material) // Output: steel
 console.log(door.color) // Output: white
 console.log(door.height) // Output: 8feet
 console.log(door.width) // Output: 4feet
+
+
 
 
