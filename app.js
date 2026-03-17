@@ -308,3 +308,47 @@ let bestFriend = friends[2]; // This selects "Boladale"
 
 console.log(bestFriend);
 
+
+const emptyArray = []
+emptyArray[0] = 'First Index'
+emptyArray.push('First Element','Second Element',477,'True')
+emptyArray.push('Pushed Element')
+console.log(emptyArray) // Output: ['First Index', 'First Element']
+
+
+const notEmptyArray = ['First Element', 'Second Element', 477, true]
+notEmptyArray.push('Pushed Element')
+console.log(notEmptyArray) // Output: ['First Element', 'Second Element', 477, true, 'Pushed Element']
+
+const notEmptyArray = ['First Element', 'Second Element', 477, true]
+
+for (let start = 0; start < notEmptyArray.length; start = start + 1) {
+    console.log(notEmptyArray[start]);
+    notEmptyArray.pop()
+}
+// Output: 'First Element', 'Second Element', 477
+
+
+
+const notEmptyArray = ['First Element', 'Second Element', 477, true]
+notEmptyArray.unshift('Pre-Element','Post-Element')
+console.log(notEmptyArray) // Output: ['Pre-Element', 'Post-Element', 'First Element', 'Second Element', 477, true]
+
+
+const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+months.slice(2,6)
+months.splice(2,4,'Mar','Apr','May','Jun')
+
+console.log(months) // Output: ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+
+const myObject = {name:'car', price:25000000, color:'red', year:2020, isElectric:false}
+
+const door = {isOpen:false, material:'steel', color:'white', height:'8feet', width:'4feet'}
+
+console.log(door.isOpen) // Output: false
+console.log(door.material) // Output: steel
+console.log(door.color) // Output: white
+console.log(door.height) // Output: 8feet
+console.log(door.width) // Output: 4feet
+
+
