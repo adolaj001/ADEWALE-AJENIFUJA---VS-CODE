@@ -371,6 +371,7 @@ const person = {
         this.sibblings.push(name);
         person.addSibbling('Tunde');
     }   
+}
 
 
 
