@@ -348,20 +348,29 @@ const door = {isOpen:false,
       color:'white',
        height:'8feet', 
        width:'4feet' ,
-        toggleOpenandClose:function() {
+        toggleOpenandClose:function() 
             if (door.isOpen === true) {
                 door.isOpen = false
                 else {
                     door.isOpen = true
                 }
-        }
+        },
 
-console.log(door.isOpen) // Output: false
-console.log(door.material) // Output: steel
-console.log(door.color) // Output: white
-console.log(door.height) // Output: 8feet
-console.log(door.width) // Output: 4feet
+        door.toggleOpenandClose(), // Output: true'
+console.log(door.isOpen), // Output: false
+console.log(door.material), // Output: steel
+console.log(door.color), // Output: white
+console.log(door.height), // Output: 8feet
+console.log(door.width), // Output: 4feet
 
+const person = {
+    name: 'Adewale',
+    age: 35,
+    sibblings: ['Olatunde', 'Aisha', 'Boladale', 'Chinedu', 'Kemisola'],
+    addSibbling: function(name) {
+        this.sibblings.push(name);
+        person.addSibbling('Tunde');
+    }   
 
 
 
