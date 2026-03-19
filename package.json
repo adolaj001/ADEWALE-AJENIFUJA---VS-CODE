@@ -1,0 +1,25 @@
+{
+  "name": "testifyautomation",
+  "version": "1.0.0",
+  "description": "Testify Automation learning nodejs",
+  "keywords": [
+    "testify",
+    "automation",
+    "nodejs"
+  ],
+  "homepage": "https://github.com/adolaj001/ADEWALE-AJENIFUJA---VS-CODE#readme",
+  "bugs": {
+    "url": "https://github.com/adolaj001/ADEWALE-AJENIFUJA---VS-CODE/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adolaj001/ADEWALE-AJENIFUJA---VS-CODE.git"
+  },
+  "license": "ISC",
+  "author": "Adewale Ajenifuja",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
